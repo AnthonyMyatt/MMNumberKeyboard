@@ -44,7 +44,7 @@ FOUNDATION_EXPORT const unsigned char MMNumberKeyboardVersionString[];
 /**
  *  Asks the delegate if the keyboard should remove the character just before the cursor.
  *
- *  @param numberKeyboard The keyboard whose return button was pressed.
+ *  @param numberKeyboard The keyboard instance proposing the text deletion.
  *
  *  @return Returns	@c YES if the keyboard should implement its default behavior for the delete backward button; otherwise, @c NO.
  */
